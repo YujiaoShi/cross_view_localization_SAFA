@@ -48,6 +48,7 @@ The recall accuracy
 | CVUSA     |  89.84% |   96.93% |   98.14% |   99.64% |
 | CVACT_val |  81.03% |   92.80% |   94.84% |   98.17% |
 
+The complete recall at top K results can be found [here](https://drive.google.com/file/d/1a7zY_z4N7N4kSdSkjd_itJqoqpxI9UJa/view?usp=sharing) in case you want to directly compare with them. 
 
 ### Publications
 This work is published in NeurIPS 2019.  
