@@ -56,10 +56,14 @@ This work is published in NeurIPS 2019.
 If you are interested in our work and use our code, we are pleased that you can cite the following publication:  
 *Yujiao Shi, Liu Liu, Xin Yu, Hongdong Li.Spatial-Aware Feature Aggregation for Cross-View Image Based Geo-Localization. In Advances in neural information processing systems, Dec 2019.*
 
-@inproceedings{han2018co,
-  title={Spatial-Aware Feature Aggregation for Cross-View Image Based Geo-Localization},
-  author={Yujiao Shi, Liu Liu, Xin Yu, Hongdong Li},
-  booktitle={Advances in neural information processing systems},
-  year={2019}
+@incollection{NIPS2019_9199,
+title = {Spatial-Aware Feature Aggregation for Image based Cross-View Geo-Localization},
+author = {Shi, Yujiao and Liu, Liu and Yu, Xin and Li, Hongdong},
+booktitle = {Advances in Neural Information Processing Systems 32},
+editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+pages = {10090--10100},
+year = {2019},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/9199-spatial-aware-feature-aggregation-for-image-based-cross-view-geo-localization.pdf}
 }
 
