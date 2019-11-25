@@ -51,7 +51,7 @@ The recall accuracy
 
 ### Publications
 This work is published in NeurIPS 2019.  
-[Spatial-Aware Feature Aggregation for Cross-View Image Based Geo-Localization]()
+[Spatial-Aware Feature Aggregation for Cross-View Image Based Geo-Localization](http://papers.nips.cc/paper/9199-spatial-aware-feature-aggregation-for-image-based-cross-view-geo-localization.pdf)
 
 If you are interested in our work and use our code, we are pleased that you can cite the following publication:  
 *Yujiao Shi, Liu Liu, Xin Yu, Hongdong Li.Spatial-Aware Feature Aggregation for Cross-View Image Based Geo-Localization. In Advances in neural information processing systems, Dec 2019.*
