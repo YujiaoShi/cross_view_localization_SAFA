@@ -23,12 +23,12 @@ polar = args.polar
 data_type = 'CVUSA'
 
 batch_size = 32
-is_training = True
+is_training = False
 loss_weight = 10.0
 number_of_epoch = 100
 
 learning_rate_val = 1e-5
-keep_prob_val = 0.8
+keep_prob_val = 1
 # -------------------------------------------------------- #
 
 

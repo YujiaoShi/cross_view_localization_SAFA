@@ -4,7 +4,7 @@ import tensorflow as tf
 
 def spatial_aware(input_feature, dimension, trainable, name):
     batch, height, width, channel = input_feature.get_shape().as_list()
-    vec1 = tf.reshape(tf.reduce_max(input_feature, axis=-1), [-1, height * width])
+    vec1 = tf.reshape(tf.reduce_mean(input_feature, axis=-1), [-1, height * width])
 
     with tf.variable_scope(name):
         weight1 = tf.get_variable(name='weights1', shape=[height * width, int(height * width/2), dimension],

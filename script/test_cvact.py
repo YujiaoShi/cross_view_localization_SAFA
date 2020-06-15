@@ -1,8 +1,5 @@
 import os
 
-os.environ['CUDA_DEVICE_ORDER'] = 'PCI_BUS_ID'
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-
 from spatial_net import *
 from OriNet_CVACT.input_data_act_polar import InputData
 import tensorflow as tf
@@ -25,12 +22,12 @@ polar = args.polar
 data_type = 'CVACT'
 
 batch_size = 32
-is_training = True
+is_training = False
 loss_weight = 10.0
 number_of_epoch = 100
 
 learning_rate_val = 1e-5
-keep_prob_val = 0.8
+keep_prob_val = 1
 # -------------------------------------------------------- #
 
 
