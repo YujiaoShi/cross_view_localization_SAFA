@@ -22,6 +22,7 @@ We use two existing dataset to do the experiments
  Data/ANU_data_small/"
 2. Please run "data_preparation.py" to get polar transformed aerial images of the two datasets and pre-crop-and-resize the street-view images in CVACT dataset to accelerate the training speed.
 
+3. We recently found the generated polar maps with different python built-in functions will result in different results if you directly employ our pretrained models. Our generated polar maps for CVUSA and CVACT dataset can be found in [here](https://drive.google.com/drive/folders/1VFmHsZsnlt2ALmptAB-wBy-pJBawQrrG?usp=sharing)
 
 ### Models:
 Our trained models for CVUSA and CVACT are available in [here](https://drive.google.com/open?id=1dH44xSMXCekih8-8CK1_x-76vrMj4whr). 
